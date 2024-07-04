@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe | Best Game</title>
+</head>
+<body>
+    <header>
+        <div class="msg_container">
+            <h1 class="winner_msg">Welcome, Game starts by O</h1>
+            <button class="reset_game_btn btn" onclick="resetGame()">Reset Game</button>
+            <button class="new_game_btn btn hide" onclick="newGamebtn()">New Game</button>
+        </div>
+    </header>
+    <main class="container">
+        <div class="game_box">
+            <div class="game_msg"><h2>Turn:</h2> <p class="turn_tell">O</p></div>
+            <div class="game">
+                <button class="box1 box" onclick="yourTurn(0)"></button>
+                <button class="box2 box" onclick="yourTurn(1)"></button>
+                <button class="box3 box" onclick="yourTurn(2)"></button>
+                <button class="box4 box" onclick="yourTurn(3)"></button>
+                <button class="box5 box" onclick="yourTurn(4)"></button>
+                <button class="box6 box" onclick="yourTurn(5)"></button>
+                <button class="box7 box" onclick="yourTurn(6)"></button>
+                <button class="box8 box" onclick="yourTurn(7)"></button>
+                <button class="box9 box" onclick="yourTurn(8)"></button>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
